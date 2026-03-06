@@ -1,0 +1,19 @@
+{
+  "redirects": [
+    {
+      "source": "/pet-affiliate-scanner",
+      "destination": "https://oce1-pet-affiliate-scanner-mvp.vercel.app",
+      "permanent": false
+    },
+    {
+      "source": "/gaming-achievement-tracker",
+      "destination": "https://oce1-gaming-achievement-tracker-mvp.vercel.app",
+      "permanent": false
+    },
+    {
+      "source": "/beauty-ugc-curator",
+      "destination": "https://oce1-beauty-ugc-curator-mvp.vercel.app",
+      "permanent": false
+    }
+  ]
+}
