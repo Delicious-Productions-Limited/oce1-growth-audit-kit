@@ -1,19 +1,28 @@
 {
-  "redirects": [
+  "rewrites": [
     {
       "source": "/pet-affiliate-scanner",
-      "destination": "https://oce1-pet-affiliate-scanner-mvp.vercel.app",
-      "permanent": false
+      "destination": "https://oce1-pet-affiliate-scanner-mvp.vercel.app"
+    },
+    {
+      "source": "/pet-affiliate-scanner/:path*",
+      "destination": "https://oce1-pet-affiliate-scanner-mvp.vercel.app/:path*"
     },
     {
       "source": "/gaming-achievement-tracker",
-      "destination": "https://oce1-gaming-achievement-tracker-mvp.vercel.app",
-      "permanent": false
+      "destination": "https://oce1-gaming-achievement-tracker-mvp.vercel.app"
+    },
+    {
+      "source": "/gaming-achievement-tracker/:path*",
+      "destination": "https://oce1-gaming-achievement-tracker-mvp.vercel.app/:path*"
     },
     {
       "source": "/beauty-ugc-curator",
-      "destination": "https://oce1-beauty-ugc-curator-mvp.vercel.app",
-      "permanent": false
+      "destination": "https://oce1-beauty-ugc-curator-mvp.vercel.app"
+    },
+    {
+      "source": "/beauty-ugc-curator/:path*",
+      "destination": "https://oce1-beauty-ugc-curator-mvp.vercel.app/:path*"
     }
   ]
 }
