@@ -23,6 +23,14 @@
     {
       "source": "/beauty-ugc-curator/:path*",
       "destination": "https://oce1-beauty-ugc-curator-mvp.vercel.app/:path*"
+    },
+    {
+      "source": "/gpc-auditor",
+      "destination": "https://gpc.growthauditkit.com"
+    },
+    {
+      "source": "/gpc-auditor/:path*",
+      "destination": "https://gpc.growthauditkit.com/:path*"
     }
   ]
 }
