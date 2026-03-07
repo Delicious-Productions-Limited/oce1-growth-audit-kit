@@ -31,6 +31,38 @@
     {
       "source": "/gpc-auditor/:path*",
       "destination": "https://gpc.growthauditkit.com/:path*"
+    },
+    {
+      "source": "/laundromat-seo",
+      "destination": "https://oce1-laundromat-seo-mvp.vercel.app"
+    },
+    {
+      "source": "/laundromat-seo/:path*",
+      "destination": "https://oce1-laundromat-seo-mvp.vercel.app/:path*"
+    },
+    {
+      "source": "/usage-billing-ops",
+      "destination": "https://oce1-usage-billing-ops-mvp.vercel.app"
+    },
+    {
+      "source": "/usage-billing-ops/:path*",
+      "destination": "https://oce1-usage-billing-ops-mvp.vercel.app/:path*"
+    },
+    {
+      "source": "/agentic-audit-log",
+      "destination": "https://oce1-agentic-audit-log-mvp.vercel.app"
+    },
+    {
+      "source": "/agentic-audit-log/:path*",
+      "destination": "https://oce1-agentic-audit-log-mvp.vercel.app/:path*"
+    },
+    {
+      "source": "/scope-extractor",
+      "destination": "https://oce1-scope-extractor-mvp.vercel.app"
+    },
+    {
+      "source": "/scope-extractor/:path*",
+      "destination": "https://oce1-scope-extractor-mvp.vercel.app/:path*"
     }
   ]
 }
