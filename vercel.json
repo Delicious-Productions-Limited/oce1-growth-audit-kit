@@ -1,6 +1,18 @@
 {
   "rewrites": [
     {
+      "source": "/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/terms",
+      "destination": "/terms.html"
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacy.html"
+    },
+    {
       "source": "/pet-affiliate-scanner",
       "destination": "https://oce1-pet-affiliate-scanner-mvp.vercel.app"
     },
@@ -26,11 +38,11 @@
     },
     {
       "source": "/gpc-auditor",
-      "destination": "https://gpc.growthauditkit.com"
+      "destination": "https://oce1-gpc-auditor-mvp.vercel.app"
     },
     {
       "source": "/gpc-auditor/:path*",
-      "destination": "https://gpc.growthauditkit.com/:path*"
+      "destination": "https://oce1-gpc-auditor-mvp.vercel.app/:path*"
     },
     {
       "source": "/laundromat-seo",
