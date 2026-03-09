@@ -75,6 +75,14 @@
     {
       "source": "/scope-extractor/:path*",
       "destination": "https://oce1-scope-extractor-mvp.vercel.app/:path*"
+    },
+    {
+      "source": "/oce-forge",
+      "destination": "https://oce-forge.vercel.app"
+    },
+    {
+      "source": "/oce-forge/:path*",
+      "destination": "https://oce-forge.vercel.app/:path*"
     }
   ]
 }
